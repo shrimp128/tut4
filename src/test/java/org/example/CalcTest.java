@@ -9,4 +9,9 @@ public class CalcTest {
         Calc c = new Calc();
         assertEquals(4, c.add(2,2));
     }
+    @Test
+    public void substract() {
+        Calc test = new Calc();
+        assertEquals(test.subtract(2,1), 1);
+    }
 }
